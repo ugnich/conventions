@@ -2,9 +2,10 @@
 
 Read settings from the variables below. Where specified, include default values in the code.
 
-`DOMAIN` main domain name of the project. Single domain name, without "www". Example: `timetobook.io`.  
+`DOMAIN` main domain name of the project. Single domain name, without "www". Example: `timetobook.io`  
 `EMAIL` email address of website admin. Example: `info@timetobook.io`  
-`SECRET_KEY` standard Django secret key
+`SECRET_KEY` standard Django secret key  
+`DEBUG` Django debug mode switch. **Default value**: `False`. Example: `True`
 
 ### Database
 
