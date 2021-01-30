@@ -35,3 +35,5 @@ In case if the project works with S3 or Route 53 (wildcard SSL validation), AWS 
 
 `AWS_ACCESS_KEY_ID`  
 `AWS_SECRET_ACCESS_KEY`
+
+`AWS_STORAGE_BUCKET_NAME` S3 bucket name. **Default value**: short lowercase name of the project. Example: `timetobook`
