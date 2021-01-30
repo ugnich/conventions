@@ -15,6 +15,13 @@ Read settings from the variables below. Where specified, include default values 
 `DB_USER` username for database connection. **Default value**: short lowercase name of the project. Example: `timetobook`  
 `DB_PASSWORD` password for database connection. **Default value**: /empty string/
 
+### Email
+
+`EMAIL_HOST` SMTP server hostname  
+`EMAIL_PORT` SMTP server port. **Default value**: `587`  
+`EMAIL_HOST_USER` Username for SMTP connection  
+`EMAIL_HOST_PASSWORD` Password for SMTP connection
+
 ### Django admin user
 
 Check if the superuser exists and if not - create it.
