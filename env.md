@@ -4,16 +4,20 @@ Read settings from the variables below. Where specified, include default values 
 
 `DOMAIN` main domain name of the project. Single domain name, without "www". Example: `timetobook.io`  
 `EMAIL` email address of website admin. Example: `info@timetobook.io`  
+
 `SECRET_KEY` standard Django secret key  
-`DEBUG` Django debug mode switch. **Default value**: `False`. Example: `True`
+`DEBUG` Django debug mode switch. **Default value**: `False`. Example: `True`  
+`ALLOWED_HOSTS` space-separated list of hosts for Django.  
 
 ### Database
 
-`DB_HOST` database hostname. **Default value**: `localhost`  
+`DATABASE_URL` database connection settings for `dj-database-url`
+
+~~`DB_HOST` database hostname. **Default value**: `localhost`  
 `DB_PORT` database connection port. **Default value** for MySQL: `3306`  
 `DB_NAME` database name. **Default value**: short lowercase name of the project. Example: `timetobook`  
 `DB_USER` username for database connection. **Default value**: short lowercase name of the project. Example: `timetobook`  
-`DB_PASSWORD` password for database connection. **Default value**: /empty string/
+`DB_PASSWORD` password for database connection. **Default value**: /empty string/~~
 
 ### Email
 
